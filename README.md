@@ -56,10 +56,19 @@ Texmaker es el editor de código
 
 ## Atajos
 
-| Comando    | Descripción           |
-| ---------- | --------------------- |
-| `Ctrl + n` | Crear nuevo documento |
-| `Ctrl + s` | Guardar               |
+| Comando            | Descripción                          |
+| ------------------ | ------------------------------------ |
+| `Ctrl + N`         | Crear nuevo documento                |
+| `Ctrl + S`         | Guardar                              |
+|                    |                                      |
+| `Ctrl + Shift + N` | Ecuación numerada                    |
+| `Ctrl + Shift + M` | Ecuación en linea                    |
+| `Shift + Alt + M`  | Ecuación independiente (no numerada) |
+|                    |                                      |
+| `Ctrl + Shift + D` | Subíndice                            |
+| `Ctrl + Shift + U` | Superíndice                          |
+
+
 
 
 

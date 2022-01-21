@@ -1,0 +1,67 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Ciro Fabian Bermudez Marquez}
+\title{Matematicas}
+\begin{document}
+
+% Ecuacion en linea
+% Ecuacion numerada centrada
+% Ecuacion centrada sin numerar
+
+
+\begin{equation}
+	R = \frac{d}{kA}
+\end{equation}
+
+\begin{equation}
+	\frac{T_{L} - T_{P}}{R} + \frac{T_{D}- T_{P}}{R} = \frac{T_{P}- T_{U}}{R} + \frac{T_{P}- T_{R}}{R}
+	\label{eq:balance}
+\end{equation}
+
+En la ecuación (\ref{eq:balance})
+
+\begin{equation}
+	R_{x} = \frac{d}{k A_{x}} = \frac{\Delta x}{k (\Delta y L)} 
+\end{equation}
+
+\begin{equation}
+	R_{y} = \frac{d}{k A_{y}} = \frac{\Delta y}{k (\Delta x L)} 
+\end{equation}
+
+
+
+\begin{equation}
+	\frac{T_{L} - T_{P}}{\frac{\Delta x}{k (\Delta y L)} } + \frac{T_{D}- T_{P}}{\frac{\Delta y}{k (\Delta x L)} } = \frac{T_{P}- T_{U}}{\frac{\Delta y}{k (\Delta x L)} } + \frac{T_{P}- T_{R}}{\frac{\Delta x}{k (\Delta y L)} }
+\end{equation}
+
+\begin{equation}
+	\text{Energy input} = \text{Energy output}
+\end{equation}
+
+\begin{equation}
+	\dot{Q} = \frac{T_{\text{out}} - T_{\text{in}} }{R}
+\end{equation}
+
+\begin{equation}
+	\dot{Q_{L}} + \dot{Q_{D}} = \dot{Q_{U}} + \dot{Q_{R}}
+\end{equation}
+
+Utilizando la siguiente sustitución:
+\begin{equation}
+	 \frac{\Delta y}{\Delta x}  = \Omega_{1} \qquad \qquad  \frac{\Delta x}{\Delta y}  = \Omega_{2}
+\end{equation}
+
+\begin{equation}
+	k L \Omega_{1} \left(  T_{L} - T_{P} + T_{R} - T_{P} \right)
+\end{equation}
+
+\end{document}
